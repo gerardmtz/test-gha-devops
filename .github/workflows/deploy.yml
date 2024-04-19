@@ -24,6 +24,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFARE_API_TOKEN }}
           accountId: 1022cfdc0fee29412980cc9f5d9b326c
-          projectName: sample-site
+          projectName: test-devops
           directory: dist
           wranglerVersion: '3'
